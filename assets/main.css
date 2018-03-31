@@ -1,0 +1,52 @@
+body {
+  background: black;
+  color: lightgrey;
+  padding: 30px;
+}
+
+.container-row-centered {
+  display: flex;
+  justify-content: center;
+}
+
+#container-avatar {
+  order: 0;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+#container-title {
+  order: 1;
+  padding: 30px;
+  flex-grow: 8;
+}
+
+#container-title-tagline {
+  color: grey;
+}
+
+.font-mono {
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
+
+nav {
+}
+
+nav a:first-child {
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  padding: 20px;
+}
+
+nav a {
+  color: green;
+  flex-grow: 1;
+  border-style: solid;
+  border-width: 2px 2px 2px 0px;
+  border-color: grey;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: x-large;
+}
