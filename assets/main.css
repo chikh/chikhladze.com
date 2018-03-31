@@ -41,8 +41,12 @@ nav a {
   border-style: solid;
   border-width: 2px;
   border-color: grey;
-  padding: 20px;
+  padding: 5px;
   text-decoration: none;
   text-align: center;
-  font-size: x-large;
+  font-size: large;
+}
+
+nav a:hover {
+  color: lightgreen;
 }
