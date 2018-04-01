@@ -79,3 +79,8 @@ nav a.menu-item {
 nav a:hover {
   color: lightgreen;
 }
+
+.contact-logo {
+  width: 64px;
+  height: 64px;
+}
