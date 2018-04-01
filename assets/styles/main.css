@@ -65,6 +65,10 @@ a:visited {
   text-align: center;
 }
 
+nav {
+  background-color: black;
+}
+
 nav a.menu-item {
   margin-top: -2px;
   margin-left: -2px;
@@ -78,6 +82,14 @@ nav a.menu-item {
 
 nav a:hover {
   color: lightgreen;
+}
+
+// TODO: make transition smooth
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .contact-logo {
