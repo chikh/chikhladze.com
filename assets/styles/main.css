@@ -84,7 +84,7 @@ nav a:hover {
   color: lightgreen;
 }
 
-// TODO: make transition smooth
+/* TODO: make transition smooth */
 .fixed-top {
   position: fixed;
   top: 0;
